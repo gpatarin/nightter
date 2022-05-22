@@ -1,0 +1,22 @@
+{
+  "name": "nightter",
+  "displayName": "Nightter",
+  "description": "A personnal theme for Visual Studio Code",
+  "repository": "https://github.com/gpatarin/nightter",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nightter Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nightter-color-theme.json"
+      }
+    ]
+  }
+}
